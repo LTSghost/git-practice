@@ -1,5 +1,20 @@
 $color: blue;
+$textalm: medterm;
+$border: 1px solid black;
+$border-collapse: collapse;
+$padding: 5px;
 
 ul{
 	color: $color;
+}
+table,th{
+	text-align: $textalm;
+	border: $border;
+	border-collapse: $border-collapse;
+	padding: $padding;
+}
+td{
+	border: $border;
+	padding: $padding;
+	text-align: left;
 }
