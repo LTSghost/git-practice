@@ -29,17 +29,27 @@ p em{
 #Hello2{
 	color: red;
 }
-
-div{
-	background-color: yellowgreen;
+#container {
+	display: flex; 
+	flex-wrap: wrap;
+}
+#container > div{
+	background-color: springgreen;
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
 	width: 200px;
-	height: 200px;
-	margin: 5px;
+}
 
-}
-.BG{
-	color: red;
-}
+/*div{
+	display: flex;
+	flex-wrap: wrap;
+	width: 200px;
+	height: 300px;
+	margin: 5px;
+	padding: 20px;
+}*/
+
 button {
 	color: white;
 	width: 200px;
@@ -50,4 +60,15 @@ button {
 button:hover {
 	color: black;
 	background-color: white;
+}
+
+@media (min-width: 1000px){
+	div {
+		background-color: skyblue;
+	}
+}
+@media (max-width: 999px){
+	div {
+		background-color: orange;
+	}
 }
