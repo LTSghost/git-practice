@@ -12,4 +12,13 @@ td {
   padding: 5px;
   text-align: left; }
 
+li em {
+  color: black; }
+
+p em {
+  color: red; }
+
+#Hello2 {
+  color: red; }
+
 /*# sourceMappingURL=style.css.map */
